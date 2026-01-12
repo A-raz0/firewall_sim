@@ -7,15 +7,24 @@ Simulates 100 random packets and prints each decision for each individual packet
 
 ## Features 
 Generates random packets with:
+
 Source IP address (e.g., '192.168.1.7')
+
 Protocol ('TCP or 'UDP')
+
 Destination port (random 1–100)
+
 Packet size (random 20–1500 bytes)
+
 Checks packets against a rule list top to bottom
+
 Uses a default policy (allow) if no rules match
+
 Tracks how many packets were allowed vs denied
+
 Tracks which rules matched most often (hit counts) 
 
 ## Run
 In terminal run:
+
 python3 firewall.py
